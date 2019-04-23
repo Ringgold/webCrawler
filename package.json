@@ -1,0 +1,27 @@
+{
+  "name": "simple-crawler",
+  "version": "0.1.0",
+  "description": "Create a screenshot of web page in PDF",
+  "main": "./dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "package.json"
+  ],
+  "author": "Ziqiao Lin",
+  "license": "MIT",
+  "dependencies": {
+    "crawler": "^1.2.1",
+    "events": "^1.1.1",
+    "puppeteer": "^0.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.10.46",
+    "puppeteer-tsd": "0.0.2"
+  }
+}
